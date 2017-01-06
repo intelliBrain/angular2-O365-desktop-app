@@ -3,8 +3,6 @@
 const electron = require("electron");
 const app = electron.app;
 
-const AdalMainConfig = require("./main-config");
-
 require("electron-debug")({ showDevTools: true });
 
 // browser-window creates a native window
